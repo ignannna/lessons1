@@ -17,7 +17,7 @@ public class Ex6 {
         try {
             throw new UserException();
         } catch (UserException userException) {
-            System.out.println("Обработка исключения.");
+            System.out.println("Обработка исключения. рогог");
             userException.method();
 
             try {
